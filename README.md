@@ -1,6 +1,10 @@
 # esx_kitchen
 ESX based public kitchen for cooking
 
+# Requirements
+- mythic_progbar
+- ESX v1.1 or v1.2
+
 # Features
 - Configurable locations, menu, language, and blips
 - Compatible with ESX v1.1 and v1.2

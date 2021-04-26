@@ -43,7 +43,7 @@ AddEventHandler('esx_kitchen:cook', function(recipe, result, count)
             xPlayer.showNotification(_U('inventory_full'))
         end
     else
-        local sourceItem = xPlayer.getInventoryItem(item)
+        local sourceItem = xPlayer.getInventoryItem(result)
 
         if sourceItem.limit ~= nil and not ((sourceItem.count + count) > sourceItem.limit) or sourceItem.limit == -1 then
             for k,v in pairs(recipe) do
